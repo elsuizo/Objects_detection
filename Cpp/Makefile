@@ -10,8 +10,8 @@ COMPILER=g++ -std=c++11
 CFLAGS   = -std=c99 -Wall -I.
 
 # Opencv flags
-CPPFLAGS = $(shell pkg-config --cflags opencv)
-LDLIBS = $(shell pkg-config --libs opencv)
+CPPFLAGS = $(shell pkg-config --cflags opencv4)
+LDLIBS = $(shell pkg-config --libs opencv4)
 
 # linking flags here
 LINKER   = g++ -o
